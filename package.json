@@ -1,0 +1,22 @@
+{
+  "name": "discord-playground-bot",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "isuke <isuke770@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "serve": "NODE_ENV=development yarn run nodemon lib/index.js",
+    "lint": "eslint lib/**/*.js",
+    "fix": "eslint --fix lib/**/*.js"
+  },
+  "dependencies": {
+    "discord.js": "discordjs/discord.js"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "nodemon": "^2.0.2",
+    "prettier": "^1.19.1"
+  }
+}
